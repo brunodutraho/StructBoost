@@ -37,20 +37,52 @@ ul {
 
 html {
     font-size: 62.5%;
+    background-color: var(--gray-900);
+    color: var(--gray-100);
 }
 
-h1 {
-    color: var(--gray-800);
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Sora', sans-serif;
-    font-size: 6.4rem;
-    font-weight: 700;
     line-height: 120%;
+}
+h1, h2, h3, h4 {
+    font-weight: 700;
+}
+h5, h6 {
+    font-weight: 600;
+}
+h1 {
+    font-size: 5.6rem;
 }
 
 h2 {
-    color: var(--gray-800);
-    font-family: 'Sora', sans-serif;
     font-size: 4.8rem;
-    font-weight: 700;
-    line-height: 120%;
+}
+
+h3 {
+    font-size: 4.0rem;
+}
+
+h4 {
+    font-size: 2.8rem;
+}
+
+h5 {
+    font-size: 2.4rem;
+}
+
+h6 {
+    font-size: 2.2rem;
+}
+
+p {
+    font-size: 1.8rem;
+    line-height: 150%;
+}
+
+.container {
+    width: 100%;
+    max-width: 124.6rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
 }
