@@ -33,3 +33,43 @@ header nav ul li a {
 header nav ul li a:hover {
     opacity: 0.7;
 }
+
+.s-hero {
+    width: 100%;
+    padding-top: 11.3rem;
+    height: 10.62rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.s-hero .text {
+    position: relative;
+    width: 100%;
+    max-width: 71.9rem;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 6.4rem;
+}
+
+.s-hero .text h1 {
+    font-family: 'Sora';
+    font-weight: 600;
+    letter-spacing: -1.68px;
+}
+
+.s-hero .text p {
+    width: 55.6rem;
+    margin: 0 auto;
+    letter-spacing: -0.54px;
+    margin-top: 2.4rem;
+    margin-bottom: 3.2rem;
+    color: var(--gray-300);
+}
+
+.s-hero .text .arrow {
+    position: absolute;
+    left: 5.5rem;
+    bottom: 1.7rem;
+}
