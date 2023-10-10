@@ -37,11 +37,22 @@ header nav ul li a:hover {
 .s-hero {
     width: 100%;
     padding-top: 11.3rem;
-    height: 10.62rem;
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: hidden;
+}
+
+.s-hero::before {
+    content: '';
+    width: 100%;
+    height: 220px;
+    background-color: var(--pink-10);
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    z-index: -1;
 }
 
 .s-hero .text {
@@ -53,10 +64,23 @@ header nav ul li a:hover {
     margin-bottom: 6.4rem;
 }
 
+
 .s-hero .text h1 {
-    font-family: 'Sora';
+    position: relative;
     font-weight: 600;
     letter-spacing: -1.68px;
+}
+
+.s-hero .text h1::before {
+    content: '';
+    width: 100%;
+    max-width: 55.9rem;
+    height: 2.2rem;
+    background: url("../imgs/line-title.svg") no-repeat center center;
+    position: absolute;
+    left: 3.9rem;
+    bottom: -8px;
+    z-index: -1;
 }
 
 .s-hero .text p {
@@ -70,6 +94,10 @@ header nav ul li a:hover {
 
 .s-hero .text .arrow {
     position: absolute;
-    left: 5.5rem;
+    left: 5.52rem;
     bottom: 1.7rem;
+}
+
+.s-hero .ilustra {
+    padding: 0 1.5rem;
 }
