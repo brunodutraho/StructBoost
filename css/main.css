@@ -106,6 +106,10 @@ header nav ul li a:hover {
     padding: 0 1.5rem;
 }
 
+.s-hero .ilustra-mobile {
+    display: none;
+}
+
 .s-digital {
     padding-top: 12.8rem;
     display: none;
@@ -333,5 +337,14 @@ footer .copy strong {
     }
     .s-hero .text .arrow {
         display: none;
+    }
+    .s-hero .ilustra {
+        display: none;
+    }
+    .s-hero .ilustra-mobile {
+        display: block;
+    }
+    .s-hero::after {
+        height: 22rem;
     }
 }
