@@ -28,7 +28,7 @@
 }
 
 .item-digital {
-    flex-grow: 1;
+    width: 100%;
     max-width: 38.4rem;
 }
 
@@ -90,4 +90,24 @@
 .card-post .text p {
     font-size: 1.6rem;
     color: var(--gray-600);
+}
+
+@media(max-width: 991px) {
+    .item-digital {
+        text-align: center;
+    }
+    .item-digital .icon img {
+        margin: 0 auto;
+        margin-bottom: 1.6rem;
+    }
+    .item-digital .info p br {
+        display: none;
+    }
+}
+
+@media(max-width: 560px) {
+    .s-digital .info p {
+        font-size: 1.8rem;
+        max-width: 31.9rem;
+    }
 }

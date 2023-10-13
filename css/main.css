@@ -112,7 +112,6 @@ header nav ul li a:hover {
 
 .s-digital {
     padding-top: 12.8rem;
-    display: none;
 }
 
 .s-digital h3 {
@@ -265,12 +264,31 @@ footer .copy strong {
 }
 
 /* Monitores pequenos */
-@media(max-width: 1200px) {}
+@media(max-width: 1200px) {
+    .s-digital {
+        padding: 6.8rem;
+    }
+    .s-digital ul {
+        gap: 3.2rem;
+        padding-bottom: 6.8rem;
+    }
+    .item-digital .info h6 {
+        font-size: 2rem;
+    }
+    .item-digital .info p {
+        font-size: 1.6rem;
+    }
+}
 
 /* Tablet */
 @media(max-width: 991px) {
     .s-hero::after {
         height: 13rem;
+    }
+    .s-digital ul {
+        flex-direction: column;
+        align-items: center;
+        letter-spacing: 1.5px;
     }
 }
 
@@ -330,10 +348,10 @@ footer .copy strong {
         bottom: -8px;
     }
     .s-hero .text p {
-        margin-top: 0.8rem;
+        width: 35rem;
+        margin-top: 1.5rem;
         margin-bottom: 2.4rem;
         font-size: 1.6rem;
-        letter-spacing: 1.46px;
     }
     .s-hero .text .arrow {
         display: none;
@@ -346,5 +364,15 @@ footer .copy strong {
     }
     .s-hero::after {
         height: 22rem;
+    }
+    .s-digital {
+        padding-top: 8rem;
+    }
+    .s-digital ul {
+        padding-bottom: 8rem;
+        gap: 6.4rem;
+    }
+    .s-digital h3 {
+        font-size: 2.8rem;
     }
 }
