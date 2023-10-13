@@ -130,7 +130,6 @@ header nav ul li a:hover {
 
 .s-art-front {
     padding: 12.8rem;
-    display: none;
 }
 
 .s-art-front .title-text {
@@ -165,7 +164,6 @@ header nav ul li a:hover {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 3.2rem;
-    display: none;
 }
 
 .s-art-front .all .card-post:first-child {
@@ -268,15 +266,31 @@ footer .copy strong {
     .s-digital {
         padding: 6.8rem;
     }
+
     .s-digital ul {
         gap: 3.2rem;
         padding-bottom: 6.8rem;
     }
+
     .item-digital .info h6 {
         font-size: 2rem;
     }
+
     .item-digital .info p {
         font-size: 1.6rem;
+    }
+
+    .s-art-front {
+        padding: 6rem 0;
+    }
+
+    .s-art-front .all {
+        gap: 1.6rem;
+    }
+
+    .s-art-front .all .card-post:first-child,
+    .s-art-front .all .card-post:nth-child(2) {
+        grid-column: span 3;
     }
 }
 
@@ -285,10 +299,37 @@ footer .copy strong {
     .s-hero::after {
         height: 13rem;
     }
+
     .s-digital ul {
         flex-direction: column;
         align-items: center;
         letter-spacing: 1.5px;
+    }
+
+    .s-art-front .title-text {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 4rem;
+        gap: 30px;
+    }
+    .s-art-front .title-text .left {
+        text-align: center;
+        width: 100%;
+    }
+    .s-art-front .title-text .left p {
+        max-width: 100%;
+        margin-top: 0.8rem;
+    }
+    .s-art-front .title-text .right {
+        text-align: center;
+        width: 100%;
+    }
+    .s-art-front .all {
+        grid-template-columns: 1fr;
+    }
+    .s-art-front .all .card-post:first-child,
+    .s-art-front .all .card-post:nth-child(2) {
+        grid-column: initial;
     }
 }
 
@@ -321,12 +362,13 @@ footer .copy strong {
         max-width: 40rem;
         letter-spacing: 0.46px;
     }
+
     .s-hero .text .arrow {
         bottom: 2.7rem;
         left: 20px;
         max-width: 9rem;
     }
-    
+
 }
 
 /* Celulares */
@@ -338,41 +380,79 @@ footer .copy strong {
     header .logo {
         max-width: 16rem;
     }
+
     .s-hero {
         padding-top: 8.8rem;
     }
+
     .s-hero .text h1 {
         font-size: 4rem;
     }
+
     .s-hero .text h1::before {
         bottom: -8px;
     }
+
     .s-hero .text p {
         width: 35rem;
         margin-top: 1.5rem;
         margin-bottom: 2.4rem;
         font-size: 1.6rem;
     }
+
     .s-hero .text .arrow {
         display: none;
     }
+
     .s-hero .ilustra {
         display: none;
     }
+
     .s-hero .ilustra-mobile {
         display: block;
     }
+
     .s-hero::after {
         height: 22rem;
     }
+
     .s-digital {
         padding-top: 8rem;
     }
+
     .s-digital ul {
         padding-bottom: 8rem;
         gap: 6.4rem;
     }
+
     .s-digital h3 {
         font-size: 2.8rem;
+    }
+    .s-art-front {
+        padding: 8rem 0;
+    }
+    .s-art-front .title-text .left h3 {
+        font-size: 2.8rem;
+    max-width: 22.7rem;
+    margin: 0 auto;
+    }
+    .s-art-front .title-text p {
+        font-size: 1.6rem;
+        margin-top: 0.8rem;
+    }
+    .s-art-front .title-text p br {
+        display: none;
+    }
+    .card-post .text h6 {
+        font-size: 1.8rem;
+    }
+    .card-post .text p {
+        font-size: 1.4rem;
+    }
+    .all .card-post .image {
+        margin-bottom: 5.4rem;
+    }
+    .s-art-front .all {
+        gap: 3.2rem;
     }
 }
