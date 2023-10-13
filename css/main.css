@@ -173,7 +173,6 @@ header nav ul li a:hover {
 .s-newsletter {
     padding: 8.9rem 0;
     background-color: var(--pink-10);
-    display: none;
 }
 
 .s-newsletter .container {
@@ -454,5 +453,8 @@ footer .copy strong {
     }
     .s-art-front .all {
         gap: 3.2rem;
+    }
+    .s-newsletter h2 {
+        font-size: 4rem;
     }
 }
