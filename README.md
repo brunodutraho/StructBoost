@@ -1,55 +1,80 @@
-<h1>Structboost</h1>
+# 🚀 Structboost
 
-<p>Bem-vindo ao <strong>Structboost</strong>, um projeto desenvolvido para ensinar e demonstrar as melhores práticas de desenvolvimento front-end. Este projeto é focado em criar interfaces modernas, responsivas e de alta qualidade, utilizando HTML, CSS e JavaScript.</p>
+O **Structboost** é um projeto educacional focado em demonstrar **boas práticas de desenvolvimento front-end**, com ênfase em **estruturação de código**, **design moderno**, **responsividade** e **experiência do usuário**. A aplicação simula a landing page de um curso de front-end, apresentando uma interface clara, organizada e visualmente atraente.
 
-<h2>📋 Sobre o Projeto</h2>
-<p>O Structboost é um site fictício que apresenta um curso de front-end. Ele foi projetado para ser visualmente atraente e funcional, com seções bem definidas e animações suaves. O objetivo principal é demonstrar como estruturar e estilizar um projeto front-end de forma eficiente.</p>
+---
 
-<h2>📂 Estrutura do Projeto</h2>
-<ul>
-  <li><strong>HTML:</strong> Estrutura semântica e bem organizada.</li>
-  <li><strong>CSS:</strong> Dividido em arquivos modulares como reset, variáveis, tipografia, grid e componentes.</li>
-  <li><strong>JavaScript:</strong> Utilizado para interatividade e integração com a biblioteca de animações AOS.</li>
-</ul>
+## 📌 Sobre o Projeto
 
-<h2>🎨 Estilo e Design</h2>
-<p>O design do projeto segue um guia de estilo bem definido, com:</p>
-<ul>
-  <li>Paleta de cores configurada em variáveis CSS.</li>
-  <li>Tipografia moderna utilizando as fontes <em>Inter</em> e <em>Sora</em>.</li>
-  <li>Layouts responsivos para diferentes tamanhos de tela.</li>
-</ul>
+O Structboost foi desenvolvido como um site fictício para representar um produto educacional voltado ao ensino de front-end. O objetivo principal é demonstrar como criar um projeto bem estruturado, utilizando HTML, CSS e JavaScript de forma organizada, escalável e alinhada às práticas do mercado.
 
-<h2>🚀 Funcionalidades</h2>
-<ul>
-  <li>Header com navegação e botão de menu mobile.</li>
-  <li>Seção Hero com título, descrição e botão de ação.</li>
-  <li>Seções informativas como "Diferenciais" e "Arte do Front-end".</li>
-  <li>Newsletter para capturar leads.</li>
-  <li>Footer com links úteis e redes sociais.</li>
-  <li>Animações suaves utilizando a biblioteca <a href="https://michalsnik.github.io/aos/" target="_blank">AOS</a>.</li>
-</ul>
+O layout conta com seções bem definidas, animações suaves e uma navegação intuitiva, funcionando corretamente em diferentes tamanhos de tela.
 
-<h2>📦 Como Usar</h2>
-<ol>
-  <li>Clone este repositório: <code>git clone https://github.com/seu-usuario/structboost.git</code></li>
-  <li>Abra o arquivo <code>index.html</code> no navegador para visualizar o projeto.</li>
-  <li>Edite os arquivos conforme necessário para personalizar o projeto.</li>
-</ol>
+---
 
-<h2>🌐 Link do Projeto</h2>
-<p>Você pode acessar o projeto online através deste link: <a href="https://brunodutraho.github.io/StructBoost/" target="_blank">Structboost</a></p>
+## 🌐 Projeto Online
 
-<h2>📚 Tecnologias Utilizadas</h2>
-<ul>
-  <li>HTML5</li>
-  <li>CSS3 (Flexbox, Grid, Media Queries)</li>
-  <li>JavaScript</li>
-  <li>Biblioteca AOS para animações</li>
-</ul>
+🔗 Acesse o projeto em funcionamento:  
+https://brunodutraho.github.io/StructBoost/
 
-<h2>📜 Licença</h2>
-<p>Este projeto é apenas para fins educacionais e não possui uma licença específica.</p>
+---
 
-<h2>💡 Contribuições</h2>
-<p>Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.</p>
+## 🛠️ Tecnologias Utilizadas
+
+- HTML5 para estruturação semântica  
+- CSS3 com organização modular (reset, variáveis, tipografia, grid e componentes)  
+- JavaScript para interatividade e controle de animações  
+- AOS (Animate On Scroll) para animações leves e fluidas  
+
+---
+
+## ✨ Funcionalidades
+
+- Header com navegação e menu responsivo para mobile  
+- Seção Hero com chamada principal e botão de ação  
+- Seções informativas como “Diferenciais” e “Arte do Front-end”  
+- Newsletter para captura de leads  
+- Footer com links úteis e redes sociais  
+- Layout totalmente responsivo  
+- Animações suaves aplicadas ao scroll  
+
+---
+
+## 🎨 Estilo e Design
+
+- Paleta de cores definida por variáveis CSS  
+- Tipografia moderna utilizando as fontes **Inter** e **Sora**  
+- Layout responsivo com Flexbox, Grid e Media Queries  
+- Design clean, focado em legibilidade e organização visual  
+
+---
+
+## 📂 Estrutura do Projeto
+
+- HTML com marcação semântica e organizada  
+- CSS dividido em arquivos modulares para facilitar manutenção  
+- JavaScript separado para controle de interações e animações  
+
+---
+
+## 🎯 Objetivo do Projeto
+
+Demonstrar na prática:
+
+- Estruturação eficiente de projetos front-end  
+- Organização de estilos com CSS modular  
+- Criação de interfaces modernas e responsivas  
+- Uso de animações para melhorar a experiência do usuário  
+- Desenvolvimento de landing pages com padrão profissional  
+
+---
+
+## 🖼️ Preview do Projeto
+
+![Structboost Preview](https://i.postimg.cc/VNmBQBW3/struct-boost.png)
+
+---
+
+## 📚 Observações
+
+Este projeto foi desenvolvido com fins **educacionais e demonstrativos**, servindo como base para estudo, prática e evolução em desenvolvimento front-end.
